@@ -26,7 +26,7 @@ export const Header = () => (
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="./Movies">
+          <Link className="nav-link" to="./MovieList">
             Movie List
           </Link>
         </li>

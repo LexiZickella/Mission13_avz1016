@@ -1,5 +1,5 @@
-import { useState } from 'react';
 import data from './MovieData.json';
+import { Link } from 'react-router-dom';
 
 //name of the json object we are creating
 const mds = data.MovieData;

@@ -7,7 +7,7 @@ import { Header } from './Header';
 import { Routes, Route } from 'react-router-dom';
 import { HomePage } from './HomePage';
 import { Podcast } from './Podcast';
-import MovieList from './Moives';
+import MovieList from './movie/MovieList';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path="" element={<HomePage />} />
         <Route path="/Podcast" element={<Podcast />} />
-        <Route path="/Movies" element={<MovieList />} />
+        <Route path="/MovieList" element={<MovieList />} />
       </Routes>
       <Clock />
     </div>
