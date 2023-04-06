@@ -22,7 +22,7 @@ function MovieList() {
   return (
     <>
       <div className="row">
-        <h4>Movies!!</h4>
+        <h4>The Joel Hilton Movie Collection</h4>
       </div>
       <table className="table">
         <thead>

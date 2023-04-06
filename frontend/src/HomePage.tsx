@@ -1,5 +1,4 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import TopBanner from './Banner';
 export const HomePage = () => {
   React.useEffect(() => {
@@ -7,7 +6,7 @@ export const HomePage = () => {
   }, []);
   return (
     <div>
-      <TopBanner saying="Welcome to the Film Collection" />
+      <TopBanner saying="Welcome to a The Film Collection" />
       <br />
       <br />{' '}
       <h5>

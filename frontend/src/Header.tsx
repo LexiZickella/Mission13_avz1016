@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export const Header = () => (
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <Link className="navbar-brand" to="./">
-      FilmCollection
+      MovieCollection
     </Link>
     <button
       className="navbar-toggler"
